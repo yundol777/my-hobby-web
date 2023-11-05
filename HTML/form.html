@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="../images/profils/profilCat.ico" />
+    <!-- 글꼴 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gaegu&family=Gasoek+One&display=swap"
+      rel="stylesheet"
+    />
+    <!-- 스타일 -->
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="../CSS/form.css" />
+
+    <title>윤석이의 취미생활</title>
+  </head>
+  <body>
+    <header>
+      <!-- 프로필 이미지 -->
+      <div id="profil">
+        <img src="../images/icons/iconGithub.png" alt="My Character" />
+      </div>
+      <!-- 간단한 소개글 -->
+      <ul>
+        <li>정 윤 석</li>
+        <li>ISFP</li>
+        <li>010-6225-9611</li>
+        <li>mar0722@naver.com</li>
+      </ul>
+    </header>
+
+    <main>
+      <nav>
+        <!-- 뒤로가기 -->
+        <div class="icons">
+          <a href="../index.html">
+            <img src="../images/icons/iconBack.png" alt="Back icon" />
+          </a>
+        </div>
+        <!-- 새로고침 -->
+        <div class="icons">
+          <a href="../form.html">
+            <img src="../images/icons/iconRestart.png" alt="Restart icon" />
+          </a>
+        </div>
+        <!-- 홈페이지 설명문구 -->
+        <h1>비슷한 취미가 있다면 소개해주세요!</h1>
+      </nav>
+      <!-- 메인 컨테이너 부분 -->
+      <section id="container">
+        <form>
+          <div class="input">
+            <label for="name">이름</label>
+            <br />
+            <input type="text" id="name" name="name" />
+          </div>
+
+          <div class="input">
+            <label>관심사</label>
+            <br />
+            <input type="radio" name="interest" id="game" />
+            <label for="game">게임</label>
+            <input type="radio" name="interest" id="mjusic" />
+            <label for="music">음악</label>
+            <input type="radio" name="interest" id="soccer" />
+            <label for="soccer">축구</label>
+            <input type="radio" name="interest" id="cat" />
+            <label for="cat">고양이</label>
+          </div>
+
+          <div>
+            <label for="description">설명</label>
+            <br />
+            <textarea id="description" name="description"></textarea>
+          </div>
+
+          <div>
+            <input type="submit" id="submit" value="보내기" />
+          </div>
+        </form>
+      </section>
+      <!-- 메인 아래쪽 footer 부분 -->
+      <footer>
+        <div class="icons">
+          <a href="../HTML/form.html">
+            <img src="../images/icons/iconMail.png" alt="Mail logo" />
+          </a>
+
+          <a href="https://www.github.com/yundol777">
+            <img src="../images/icons/iconGithub.png" alt="Github logo" />
+          </a>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,49 @@
+/* 헤더 배경 이미지 */
+header {
+  background-image: url(./images/backgrounds/backgroundY.png);
+  background-size: cover;
+}
+
+/* 프로필 이미지 배경색 */
+#profil img {
+  background-color: rgb(255, 255, 255);
+}
+
+/* 메인 컨테이너 내부 */
+section {
+  position: relative;
+}
+
+section .items {
+  position: absolute;
+}
+
+#music {
+  width: 270px;
+  left: 200px;
+  bottom: 0;
+}
+
+#cat {
+  width: 80px;
+  right: 100px;
+  bottom: 25px;
+}
+
+#soccer {
+  width: 300px;
+  right: 10px;
+  top: 20px;
+}
+
+#game {
+  width: 200px;
+  left: 40px;
+  top: 10px;
+}
+
+#container a:hover img {
+  transform: scale(1.05);
+
+  /* border: 1px solid black; */
+}

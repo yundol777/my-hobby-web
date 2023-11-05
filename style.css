@@ -1,0 +1,112 @@
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Gaegu", sans-serif;
+  font-weight: bolder;
+
+  height: 100%;
+}
+
+body a {
+  color: white;
+}
+
+/* 헤더 */
+header {
+  width: 500px;
+  height: 100%;
+  margin: 0 40px;
+  position: absolute;
+
+  font-size: 34px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+}
+
+header li::marker {
+  font-size: 20px;
+}
+
+#profil {
+  width: 200px;
+  height: 200px;
+
+  margin-left: 90px;
+}
+
+#profil img {
+  width: 100%;
+  height: 100%;
+  border: 5px solid black;
+  border-radius: 100%;
+}
+
+/* 메인 */
+
+main {
+  margin-left: 600px;
+  font-size: 25px;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* 네비게이션 in 메인 */
+
+nav {
+  width: 800px;
+  display: flex;
+  align-items: center;
+}
+
+nav h1 {
+  padding-left: 50px;
+  margin: 10px;
+}
+
+nav .icons img {
+  width: 60px;
+  height: 60px;
+  margin-left: 10px;
+}
+
+nav .icons a:hover img {
+  background-color: rgb(255, 251, 172);
+}
+
+/* 컨테이너 크기 및 테두리 설정 in 메인 */
+
+section {
+  width: 700px;
+  height: 440px;
+  border: 5px solid black;
+}
+
+/* footer in 메인 */
+
+footer {
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 700px;
+}
+
+footer img {
+  width: 80px;
+  height: 80px;
+}
+
+footer a:hover img {
+  background-color: rgb(255, 251, 172);
+}

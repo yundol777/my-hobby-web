@@ -1,0 +1,61 @@
+/* 헤더 배경 이미지 */
+header {
+  background-image: url(../images/backgrounds/backgroundG.png);
+  background-size: cover;
+  /* background-position: center; */
+
+  color: rgb(255, 255, 255);
+}
+
+/* 프로필 이미지 배경색 */
+#profil img {
+  background-color: rgb(255, 252, 204);
+}
+
+/* 메인 네비게이션 패딩 */
+nav h1 {
+  padding-left: 300px;
+}
+
+/* 메인 컨테이너 내부 */
+#container {
+  background-color: rgb(0, 61, 0);
+
+  font-family: "Gasok one", sans-serif;
+  color: rgb(255, 252, 204);
+}
+
+#container ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  /* gap: 10px 10px; */
+}
+
+.ex_image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.ex_image:hover img {
+  transform: scale(1.1);
+
+  /* border: 1px solid black; */
+}
+
+.ex_text {
+  width: 100%;
+  height: 100%;
+  font-size: 100px;
+  text-align: center;
+}
+
+#container li:nth-child(3) {
+  grid-column: 3 / span 2;
+  grid-row: 1 / span 2;
+}

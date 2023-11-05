@@ -1,0 +1,61 @@
+/* 헤더 배경 이미지 */
+header {
+  background-image: url(../images/backgrounds/backgroundW.png);
+  background-size: cover;
+  background-position: center;
+
+  color: rgb(255, 255, 255);
+}
+
+/* 프로필 이미지 배경색 */
+#profil img {
+  background-color: rgb(255, 255, 255);
+}
+
+/* 메인 내부 폼태그 */
+
+form {
+  width: 100%;
+  height: 100%;
+  padding: 12px 60px;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+}
+
+form .input {
+  margin-bottom: 10px;
+}
+
+form #name {
+  width: 180px;
+  height: 25px;
+
+  border: 4px solid black;
+}
+
+form #description {
+  margin: 5px 0;
+  width: 450px;
+  height: 160px;
+
+  border: 4px solid black;
+
+  resize: none;
+  overflow-y: scroll;
+}
+
+form #submit {
+  font-family: "Gaegu", sans-serif;
+  font-weight: bolder;
+  font-size: 23px;
+
+  border: 3.5px solid black;
+  border-radius: 5px;
+}
+
+/* 메인 footer 부분 오디오 공백 제거 */
+footer {
+  justify-content: flex-end;
+}
